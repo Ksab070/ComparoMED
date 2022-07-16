@@ -10,12 +10,13 @@ a {
 }
 
 .header {
-    background-color: #1f2937;
+    background-color: #2a9d8f;
     color: #f9faf8;
     display: flex;
     justify-content:space-between;
     align-content: center;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     padding-left: 50px;
 }
 
@@ -47,17 +48,52 @@ a {
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
-    font-size: 48px;
-    font-weight: 800;
     padding-left: 50px;
 }
 
 img {
-    height: 200px;
+    height: 600px;
     width: 400px;
-    padding-right: 30px;
+    border: 7px solid wheat;
+    border-radius: 6px;
+    box-sizing: content-box;
 }
 
-.img {
-    margin-right: 30px;
+.image {
+    margin-right: 25px;
+    padding: 25px 50px 40px 200px;
+}
+
+.heromain {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+gap: 0px;
+margin: 0px;
+padding: 0px;
+
+}
+
+#maintext {
+    color: #f9faf8;
+    font-size: 45px;
+    margin: 0px;
+}
+
+#secondtext {
+    font-size: 25px;
+    color: #e5e7eb;
+    margin: 5px;
+}
+
+button {
+    background-color: #2a9d8f;
+    color: #f9faf8;
+    border: 10px solid #2a9d8f;
+    box-sizing: border-box;
+    border-radius:5px;
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
 }
