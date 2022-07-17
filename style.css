@@ -38,9 +38,8 @@ a {
 }
 
 .option {
-    padding: 10px;
-    border: 6px solid wheat;
-    border-radius: 4px;
+    gap: 10px;
+   
 }
 
 .hero {
@@ -75,13 +74,13 @@ padding: 0px;
 
 }
 
-#maintext {
+#h1 {
     color: #f9faf8;
     font-size: 45px;
-    margin: 0px;
+    margin: 5px;
 }
 
-#secondtext {
+#h2 {
     font-size: 25px;
     color: #e5e7eb;
     margin: 5px;
@@ -92,8 +91,39 @@ button {
     color: #f9faf8;
     border: 10px solid #2a9d8f;
     box-sizing: border-box;
-    border-radius:5px;
+    border-radius:8px;
     margin-top: 10px;
     padding: 10px 20px 10px 20px;
     font-size: 20px;
+    font-weight: bold;
 }
+
+#condition {
+    font-size: smaller;
+    color: #e5e7eb;
+    margin-top: -5px;
+}
+
+#h3 {
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.moreinfo {
+    background-color: #e5e7eb;
+
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comp-img {
+    
+}
+
